@@ -18,6 +18,7 @@ namespace Mars_Rover.Concrete
         {
             foreach (var directive in _vehicle.Directives.ToCharArray()) 
             {
+                
                 if (directive.ToString()== Directives.Forward)
                 {
                     new ForwardRunDirective().Run(_vehicle, _space);

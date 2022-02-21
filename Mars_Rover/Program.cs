@@ -36,7 +36,7 @@ namespace Mars_Rover
 
                     Move move = new Move(vehicleResolver, spaceResolver); 
                     var result1 = move.GoVehicle();
-                    Console.WriteLine("Latest status of the first rover : "+result1);
+                    Console.WriteLine("Latest status of the first rover : "+ result1.Xlocation + " " + result1.Ylocation + " " + result1.Position);
 
                 }
                 Console.WriteLine("Enter the current location of the second rover");

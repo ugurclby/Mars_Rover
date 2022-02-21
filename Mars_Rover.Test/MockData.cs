@@ -20,13 +20,7 @@ namespace Mars_Rover.Test
 
         public static string Rover1OutPutLeftPosition = "W";
         
-        public static string Rover1OutPutRightPosition = "E";
-
-        public static string[] Rover2Coordinates = { "3", "3", "E" };
-
-        public static string Rover2Directives = "MMRMMRMRRM";
-
-        public static string Rover2OutPut = "5 1 E";
+        public static string Rover1OutPutRightPosition = "E"; 
          
     }
 }
